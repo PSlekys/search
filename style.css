@@ -1,0 +1,41 @@
+body {
+  background: url("https://www.vu.lt/site_images/naujienos/EN_Naujienu_foto/2W4C8721_1.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
+form,
+.table {
+  background: white;
+  border-radius: 10px;
+  padding: 2em;
+  margin: 20px 0;
+}
+
+form {
+  display: flex;
+}
+
+form > input {
+  flex: 3;
+}
+
+form > button {
+  flex: 1;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td,
+th {
+  border: 1px solid #eee;
+  padding: 5px;
+}
